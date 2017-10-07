@@ -1,0 +1,14 @@
+Amanda Nguyen (amvanguy@ucsc.edu)
+Section: A
+Section TA: Ethan 
+Due: 05/24/2017
+Lab 4: Caesar Cipher
+Purpose: 
+The purpose of this lab is to practice the implementation in the programming language, LC-3, into a more complex program using subroutines and multidimensional arrays. 
+Method: 
+We will be practicing the usage of a flowchart to create multiple subroutines within the Caesar Cipher program, which encrypts and decrypts user inputs and outputs the desired version. 
+Questions: 
+This lab is very time-consuming in the sense where it is difficult to work with low-level programming languages after getting some semblance of how higher-programming languages are designed systematically. In a sense, you had to think logically by how each of these higher programming functions typically work in process, which is meticulous and contains more room for bugging issues. I found myself spending hours mostly just trying to debug the program, keeping track of registers and . With that being said, I've utilized the simulator quite to my advantage by using it as a tool to access information within my two-dimensional array. After creating my "store" and "load" subroutines, I would consistently check back into my array to check if each individual function stores/loads values correctly. Checking that requires knowledge of how to maneuver through addresses and add breakpoints on the simulator to really go through each register and keep track of the change in values line-by-line in the program.
+Another problem I ran into frequently was using up too much of memory where certain call functions could not access the array/label it needs to access. I had to go through my original program multiple times and revamp my memory in order to get it to compile without any PC offset errors. I think this really allowed me to become a more efficient programmer, having to condense my code multiple times. 
+Analysis: 
+Through programming this program, I've grasped a better understanding on how to approach assembly languages to its detail-oriented nature, by deconstructing it into step-by-step methods in comparison to higher-level programming languages that essentially implement these simple tasks automatically. This allowed me to think more critically like how computers process these languages.  This is why a flowchart is an effective way to approach programming in assembly languages as it allows the programmer to completely dissect the program into individual steps even up to the tiniest of problems found within the algorithm. It definitely lessened the anxiety when you initially try to approach the algorithms. I've learned that flowcharts allow for better organization and control of how your expected outputs.

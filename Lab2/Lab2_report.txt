@@ -1,0 +1,14 @@
+Amanda Nguyen (amvanguy@ucsc.edu)
+Section: A
+Section TA: Ethan 
+Due: 04/23/2017 
+Lab 2: Adding and Subtracting
+Purpose: 
+The purpose of this lab is to use sequential/combinatorial logic to sum or subtract a sequence of numbers together.
+Method: 
+We will be practicing schematic entry and simulation through combinatorial logic circuits (inputs/outputs, implementing truth tables, gates, etc.) with tools on Multimedia Logic.
+Questions: 
+1) I had issues coming up with a logic circuits for the adder and logistics on how to build the register. With this lab, I found that you realy had to dissect the running summer into each part and test out your circuits: inverter, full adder, and the register. In order to debug, I used LEDs and 7-segment displays to test out my logic circuits by keeping track of the outputs. I used a truth table to build my full adder by creating three inputs (two binary numbers and one carry out) and outputing two results (one sum and one carry out). 
+2) When a smaller number is subtracted by a greater number, it will display the sum of the first number and the two's compliment of the second number. For example, 0 - 1 = (000000 + 111111) = 0F (hex for -1). This makes sense because binary subtraction is is just the sum of the first binary number and the two's complement of the second binary number. When a number exceeds 6 bits, it will only display the first 6 bits of the value.
+Analysis: 
+Through the lab, I learned about the new tools on Multimedia Logic and their functions for it such as "mux","flip-flop", etc. I also leaarned how to debug more lengthy, detailed logic circuits. 

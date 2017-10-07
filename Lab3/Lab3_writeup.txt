@@ -1,0 +1,15 @@
+Amanda Nguyen (amvanguy@ucsc.edu)
+Section: A
+Section TA: Ethan 
+Due: 05/07/2017
+Lab 3: Adding and Subtracting
+Purpose: 
+The purpose of this lab is to practice the implementation in the programming language, LC-3. 
+Method: 
+We will be practicing the usage of a flowchart to create a program in the LC3. 
+Questions: 
+Most of the algorithms that were used in the program were from my own preconceived knowledge of how to implement conditions and looping through basic programming ideas of "if statements" and "for loops". The more difficult part is the differing syntax and implementation from higher-level programming languages such as Java or C, to assembly language such as LC-3. Branches are analogous to conditional statements, but they utilize integer values to determine the outcome of the running program. Loops are a combination of branches, labels, and counter variables. In higher programming languages, the assembly of loops are already implemented for the user to use accordingly. However, loops in assembly language must be manually implemented by keeping track of running variables that affect the direction of each line of code. In a sense, you had to think logically by how each of these higher programming functions typically work in process, which is more meticulous. 
+Through programming this simple LC-3 program, I've grasped a better understanding on how to approach assembly languages to its detail-oriented nature, by deconstructing it into step-by-step methods in comparison to higher-level programming languages that essentially implements these simple tasks automatically. This allowed me to think more critically like how computers process these languages.  
+This is why a flowchart is an effective way to approach programming in assembly languages as it allows the programmer to completely dissect the program into individual steps even up to the tiniest of problems found within the algorithm. The flowchart I created based on the outline given to us was especially effective in helping me code my program. It definitely lessened the anxiety when you initially try to approach the algorithms. I've learned that flowcharts allow for better organization and control of how your expected outputs. With the flow chart, I was able to easily pinpoint and debug any issues I had within the program as I broke each problem down to labeled sections and outputs. 
+Analysis: 
+Through the lab, I learned plenty about the syntax and functions of the LC-3 programming language through the documentation that was provided for us. Conceptually, I understood the importance of a flowchart in terms of more meticulous coding in assembly languages in terms of dissection. 

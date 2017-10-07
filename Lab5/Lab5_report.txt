@@ -1,0 +1,16 @@
+Amanda Nguyen (amvanguy@ucsc.edu)
+Section: A
+Section TA: Ethan 
+Due: 06/04/2017
+Lab 5: Introduction to Uno32 and MIPS 
+
+Purpose:
+The purpose of this lab is to introduce the basics of MIPS and running code on an embedded processor. This will be written in MIPS assembly language and will light LED's based off button presses and bounce LED's back and forth on the Uno32 Kit. 
+
+Part 1:
+This program will print a "Hello World" message that is into CoolTerm and light up LED's based on button presses and switch toggles by turning all of the buttons and switches into inputs. The switches, which are in PORTD are first turned into inputs and will be stored in a register. The value of the switches are then right shifted 8 bits in order to map it into the LEDs 1-4 in PORTE. The buttons 4-2 are then turned into inputs and stored in a different register with no shifts, since it is in bits 7 to 5 in PORTD. This already corresponds to the LEDs 8-6 in PORTE. To get button 1 to work, I then have to access PORTF and turn that button into an input by andi with 2. Then I did a an offset of 3 so it corresponds with the 5th LED in PORTE.
+
+Part 2:
+The first step was to create a delay subroutine 'MYDELAY' that would waste time by counting down from some big number. This subroutine is recursive and exits the program when the number being reduced becomes zero. In the main loop, the PORTE value is continually added to itself to make the next LED light up, with a delay in between turning on and off. To make the LED go backwards, I wrote a 'flip' subroutine that would divide the previously lit LED's value by 2 and starts over to the main loop once it reaches 1. The more switches are turned on implies the higher the binary representation of the switches which delays the speed of the LEDs. 
+Analysis:
+Through this lab, I had a better understanding of the different commands/syntax in MIPS. 

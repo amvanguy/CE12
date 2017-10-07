@@ -1,0 +1,14 @@
+Amanda Nguyen (amvanguy@ucsc.edu)
+Section: A
+Section TA: Ethan 
+Due: 04/16/2017 
+Lab 1: Intro to Logic with Multimedia Logic
+Purpose: 
+The purpose of this lab is to let students practice with Multimedia Logic in Windows to do schematic entry and simulation. 
+Method: 
+We will be practicing schematic entry and simulation through combinatorial logic circuits (inputs/outputs, implementing truth tables, gates, etc.) with tools on Multimedia Logic.
+Questions: 
+1) I would have most likely implemented Part B the same way as it seems like the simplest approach to building a 7-segment display. If MML didn't provide me with a visual of how to implement the design, a brief description (number of inputs, bit tool, etc.) would have been sufficient. 
+2) The random number generator works through the randomization of a 0 or 1 in each bit, which is stored in a single pin. In terms of a logic gate, 0 would result in the inversion of 1 which can be randomly assigned through an OR gate. 
+Analysis: 
+Through the lab, I learned about the different tools on Multimedia Logic and its functions such as inputs/outs, wiring, gates, etc. Throughout my practice with wiring and logic gates on MML, I found that more often times than not, the wiring could get messy and really confuse the reader about the design logic. A few tips that allowed me to keep my design organized and neat were 1) to implement each design into smaller sections and 2) to enlarge each section in order to increase readability. These two tips prevented the wiring from getting crossed and mangled within each other and increased the legibility of the overall design. 

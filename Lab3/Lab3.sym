@@ -1,0 +1,27 @@
+//Symbol Name		Page Address
+//----------------	------------
+//	CHECKFLAG               302B
+//	CHECKX                  3015
+//	DECIMAL                 3088
+//	EIGHTY8                 304C
+//	EXIT                    3019
+//	FLAGHOLDER              305E
+//	FORTY5                  304B
+//	FORTY8                  304D
+//	GOODBYE                 30CD
+//	INTRO                   3000
+//	LINEFEED                301C
+//	MAINMASK                3032
+//	MASK_ARRAY              304E
+//	MASK_LOOP               3038
+//	MULTIPLY_TEN            3026
+//	NEG_FLAG                3012
+//	ONE                     3061
+//	PRINT_ONE               3044
+//	PRINT_ZERO              303E
+//	PROCESSDIGIT            301F
+//	THANKS                  30AE
+//	TWOCOMP                 302F
+//	USERIN                  300C
+//	WELCOME                 3063
+//	ZERO                    305F
